@@ -1,0 +1,103 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ryan Tang
+ID:      169061078
+Email:   tang1078@mylaurier.ca
+Version: 2023-01-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Inserting elements into the queue:
+Inserting 1 into the queue.
+Queue now contains: [1]
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Inserting elements into the queue:
+Queue now contains: [1]
+
+Peeking at the front element: 1
+
+Removing elements from the queue:
+Removed 1 from the queue.
+The queue is now empty.
+Queue now contains: []
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Original source array: [10, 20, 30, 40, 50]
+Source array after populating queue: []
+Queue after populating from source: [10, 20, 30, 40, 50]
+Queue after transferring to target array: []
+Target array after receiving queue contents: [10, 20, 30, 40, 50]
+
+Testing queue operations:
+Traceback (most recent call last):
+  File "C:\Users\ryant\eclipse\CP164\tang1078_l03\src\t03.py", line 33, in <module>
+Empty = True
+70
+Peek = 60
+Removed = 60
+80
+    queue_test(test_data)
+  File "C:\Users\ryant\eclipse\CP164\tang1078_data_structures\src\utilities.py", line 141, in queue_test
+    print(f"Peek = {q.peek()}")     
+                    ^^^^^^^^
+  File "C:\Users\ryant\eclipse\CP164\tang1078_data_structures\src\Queue_array.py", line 111, in peek
+    assert len(self._values) > 0, "Cannot peek at an empty queue"
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Cannot peek at an empty queue
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+The highest priority value is: 1
+The highest priority value is: Apple
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Removed: 10
+Removed: 20
+Removed: 30
+
+Removed: Apple
+Removed: Banana
+Removed: Mango
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Moving items from list to priority queue:
+All items moved to priority queue. List is now empty: True
+
+Moving items from priority queue back to list:
+All items moved back to list. Priority queue is now empty: True
+Items in list: 43
+
+Empty = True
+Name:       Butter Chicken
+Origin:     2
+Vegetarian: False
+Calories:   490
+
+Peek = Name:       Lasagna
+Origin:     7
+Vegetarian: False
+Calories:   135
+
+Removed = Name:       Lasagna
+Origin:     7
+Vegetarian: False
+Calories:   135
+
+Name:       Moo Goo Guy Pan
+Origin:     1
+Vegetarian: False
+Calories:   272
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+-------------------------------------------------------
