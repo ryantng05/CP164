@@ -1,0 +1,2 @@
+Rice|3|True|90
+Sugar|1|False|1
