@@ -1,0 +1,93 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ryan Tang
+ID:      169061078
+Email:   tang1078@mylaurier.ca
+Version: 2023-02-03
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Spring Rolls
+Origin:     1
+Vegetarian: None
+Calories:   None
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Appending elements to the list...
+List after appends: [10, 20, 30]
+
+Inserting an element at index 1...
+List after insert: [10, 15, 20, 30]
+
+Removing the element '20'...
+Removed value: 20
+List after removal: [10, 15, 30]
+
+Attempting to remove a non-existent element '40'...
+Result of removal: None
+List after failed removal attempt: [10, 15, 30]
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+The index of the first occurrence of '20': 1
+The value found for '30': 30
+Is '20' in the list? True
+The count of '10' in the list: 2
+The maximum value in the list: 30
+The minimum value in the list: 10
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+The second item in the list: 20
+Setting the second item in the list to 25...
+Trying to access index out of range:
+Error: Invalid index value
+Trying to set index out of range:
+Error: Invalid index value
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+List after array_to_list:
+1 2 3 4 5 
+Python list after list_to_array: [1, 2, 3, 4, 5]
+List is empty after transfer: None
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+Testing the List class...
+New list created. Is empty: None (Expected: True)
+Appended Name:       Lasagna
+Origin:     7
+Vegetarian: False
+Calories:   135
+ to list. New list: [<Food.Food object at 0x000001F701EA5950>]
+Appended Name:       Butter Chicken
+Origin:     2
+Vegetarian: False
+Calories:   490
+ to list. New list: [<Food.Food object at 0x000001F701EA5950>, <Food.Food object at 0x000001F701EA5AD0>]
+Appended Name:       Moo Goo Guy Pan
+Origin:     1
+Vegetarian: False
+Calories:   272
+ to list. New list: [<Food.Food object at 0x000001F701EA5950>, <Food.Food object at 0x000001F701EA5AD0>, <Food.Food object at 0x000001F701EA5B90>]
+Appended Name:       Vegetable Alicha
+Origin:     3
+Vegetarian: True
+Calories:   138
+ to list. New list: [<Food.Food object at 0x000001F701EA5950>, <Food.Food object at 0x000001F701EA5AD0>, <Food.Food object at 0x000001F701EA5B90>, <Food.Food object at 0x000001F701EA5C10>]
+Appended Name:       Spanakopita
+Origin:     5
+Vegetarian: True
+Calories:   260
+ to list. New list: [<Food.Food object at 0x000001F701EA5950>, <Food.Food object at 0x000001F701EA5AD0>, <Food.Food object at 0x000001F701EA5B90>, <Food.Food object at 0x000001F701EA5C10>, <Food.Food object at 0x000001F701EA5C90>]
+-------------------------------------------------------
